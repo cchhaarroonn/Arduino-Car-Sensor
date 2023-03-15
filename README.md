@@ -32,3 +32,12 @@ This project implements a car sensor using an Arduino Uno, HC-SR04 ultrasonic se
 3. When the car is in reverse, the sensor will detect the distance between the car and any object behind it.
 4. If the distance is less than a certain threshold (default is 20cm), the LED will light up and the piezo buzzer will produce a warning sound.
 5. As the car gets closer to the obstacle, the frequency of the piezo buzzer sound will increase to indicate the proximity to the obstacle.
+
+## Troubleshooting
+
+1. If the LED does not light up or the piezo buzzer does not produce a sound, check your wiring connections and make sure the components are properly connected to the    Arduino Uno.
+2. If the sensor readings are incorrect or unstable, make sure the sensor is properly positioned and there are no obstructions in front of it.
+
+## Credits
+
+This project was inspired by the HC-SR04 example project in the Arduino IDE and modified to include a visual and audible warning system. The code was written by charon.
