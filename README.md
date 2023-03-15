@@ -33,6 +33,10 @@ This project implements a car sensor using an Arduino Uno, HC-SR04 ultrasonic se
 4. If the distance is less than a certain threshold (default is 20cm), the LED will light up and the piezo buzzer will produce a warning sound.
 5. As the car gets closer to the obstacle, the frequency of the piezo buzzer sound will increase to indicate the proximity to the obstacle.
 
+## Note
+
+Distance can be changed from the code to closer range. Current distance between car and object has to be equal or less to 125cm. You can change exact distance (in centimeters) on line 26 in the if statement.
+
 ## Troubleshooting
 
 1. If the LED does not light up or the piezo buzzer does not produce a sound, check your wiring connections and make sure the components are properly connected to the    Arduino Uno.
