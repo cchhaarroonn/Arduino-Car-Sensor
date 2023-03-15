@@ -11,10 +11,20 @@ This project implements a car sensor using an Arduino Uno, HC-SR04 ultrasonic se
 - Piezo Buzzer
 - Jumper Wires
 
+## Scheme & Showcase
+
+![image](https://user-images.githubusercontent.com/90192366/225453772-f2bc4265-647c-4dd5-9eed-ba8605661f4c.png)
+https://user-images.githubusercontent.com/90192366/225453975-d154dc24-406c-48ea-9b97-8fb6f057044f.mp4
+
+
 # Instructions
 
 ## Hardware
 
+1. LED & Piezo have to be connected to ground and one of the digital pins on Arduino board so that we can manipulate with them
+2. HC-SR04 Ultrasonic Sensor has to be connected to VCC pin and ground pin so it can work properly since it is active sensor. Other two pins "TRIG" and "ECHO" have to be connected to one of digital pins from Arduino board
+
+For easier wiring and connecting I highly suggest using breadboard!
 
 
 ## Software
