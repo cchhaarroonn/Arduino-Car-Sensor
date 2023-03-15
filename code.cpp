@@ -17,7 +17,7 @@ void loop(){
   duration = pulseIn(3, HIGH);
   distance = (duration/29)/2;
   
-  if(distance<=200){
+  if(distance<=125){
     digitalWrite(4, HIGH);
     tone(5, 100, 125);
   } else{
