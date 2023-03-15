@@ -14,8 +14,7 @@ This project implements a car sensor using an Arduino Uno, HC-SR04 ultrasonic se
 ## Scheme & Showcase
 
 ![image](https://user-images.githubusercontent.com/90192366/225453772-f2bc4265-647c-4dd5-9eed-ba8605661f4c.png)
-(https://cdn.discordapp.com/attachments/898483803356561448/1085685017398743170/Recording_2023-03-15_230331.mp4)
-
+https://user-images.githubusercontent.com/90192366/225454441-dff82d21-24fa-4bef-abcd-c132847b1577.mp4
 
 # Instructions
 
