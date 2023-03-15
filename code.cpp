@@ -24,6 +24,4 @@ void loop(){
     digitalWrite(4, LOW);
     noTone(5);
   }
-  
-  	Serial.println(distance);
 }
